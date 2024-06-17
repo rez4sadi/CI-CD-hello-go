@@ -2,6 +2,6 @@ version: "3"
 services:
   Hello-go:
     container_name: hello-go
-    image: "farshadnikfetrat/hello-go:$IMAGEID"
+    image: "rez4sadi/hello-go:$IMAGEID"
     ports:
     - "8080:8080"
